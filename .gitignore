@@ -5,7 +5,7 @@
 
 # Project artifact files
 .idea
-/build
+
 package-lock.json
 /psd_all
 
