@@ -1,0 +1,74 @@
+{
+  "p-index": {
+    "head": {
+      "title": "Essential"
+    },
+    "org-header": {},
+    "org-main-content":{
+      "services-item": [
+        {
+          "mol-services-item": {
+            "title":"Створення та запуск бізнесу"
+          }
+        },
+        {
+          "mol-services-item": {
+            "title":"Супровід господарської діяльності та адміністрування"
+          }
+        },
+        {
+          "mol-services-item": {
+            "title":" Податкові спори"
+          }
+        },
+        {
+          "mol-services-item": {
+            "title":"Бухгалтерській облік "
+          }
+        },
+        {
+          "mol-services-item": {
+            "title":"Податковий консалтинг"
+          }
+        },
+        {
+          "mol-services-item": {
+            "title":"Конкуренція"
+          }
+        },
+        {
+          "mol-services-item": {
+            "title":"Операції з не рухомістю та землею"
+          }
+        },
+        {
+          "mol-services-item": {
+            "title":"Комплаєнс"
+          }
+        },
+        {
+          "mol-services-item": {
+            "title":"Структурування бізнесу"
+          }
+        },
+        {
+          "mol-services-item": {
+            "title":"M & A"
+          }
+        },
+            {
+          "mol-services-item": {
+            "title":"GR"
+          }
+        },
+        {
+          "mol-services-item": {
+            "title":"Праця та зайнятість"
+          }
+        }
+      ]
+    },
+    "org-footer": {},
+    "foot": {}
+  } 
+}

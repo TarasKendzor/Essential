@@ -1,0 +1,64 @@
+{{#org-main-content}}
+<main>
+      <section class="first-section">
+            <div class="container">
+                  <div class="first-section__content">
+                        <div class="first-section__content__top">
+                              <img src="/assets/img/logo-top.svg" alt="">
+                              <h1>Ессеншал</h1>
+                        </div>
+                        <div class="first-section__content__bottom">
+                              <img src="/assets/img/logo-bottom.svg" alt="">
+                              <p>Законні рішення для репутації клієнтів</p>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <section class="about-section about">
+            <div class="container">
+                  <div class="row">
+                        <img id="background-figure" src="assets/img/Rectangle 3.svg" alt="">
+                        <div class="col-6 about-section__banner">
+                              <img src="assets/img/image 2.svg" alt="">
+                        </div>
+                        <div class=" col-12 col-lg-6 about-section__content">
+
+                              <div class="about-section__content-wrapper">
+                                    <div class="about-title">
+                                          <div class="about-title-style"></div>
+                                          <h2>Про нас</h2>
+                                    </div>
+                                    <div class="about-info-wrapper">
+                                          <p> <strong>ESSENTIAL </strong> — українська юридична фірма, що надає послуги
+                                                в
+                                                різних сферах бізнес-права компаніям та приватним особам. Ми
+                                                обслуговуємо
+                                                іноземний бізнес в Україні, а також український бізнес за кордоном. </p>
+                                          <p> <strong>ESSENTIALS</strong> широко співпрацює з юридичними фірмами в інших
+                                                юрисдикціях, що дозволяє нам надавати широкопрофільний спектр послуг в
+                                                українському сегмент.</p>
+                                          <p>Зважена цінова політика та клієнтоорієнтованість робить
+                                                нас унікальним постачальником юридичних послуг.</p>
+                                    </div>
+                                    <a class="feedback-btn" href="#">Напишіть нам</a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <section class="services-section services">
+            <div class="container">
+                  <div class="services-title">
+                        <div class="services-title-style"></div>
+                        <h2>Послуги</h2>
+                  </div>
+                  <div class="services-items-container">
+                        {{#services-item}}
+                        {{> ../molecules/services-item}}
+                        {{/services-item}}
+
+                  </div>
+            </div>
+      </section>
+</main>
+{{/org-main-content}}

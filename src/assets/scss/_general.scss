@@ -1,0 +1,53 @@
+body,
+html {
+  min-width: 320px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  background-color: #525252;
+  font-size: 18px;
+  font-family: "Gilroy Regular";
+}
+.body-overflow {
+  overflow: hidden;
+}
+//Base fonts start.
+$font-gilroy-red: "Gilroy Regular";
+//Base fonts end.
+
+// Base project colors  start.
+$background-dark: #525252;
+$base-white: #ffffff;
+$base-red: #D24A43;
+// Base project colors  end.
+ $trarsition-on-hover: all .3s ease-in-out;
+// Media screen size start.
+$sz-1399: 1399px;
+$sz-1199: 1199px;
+$sz-991: 991px;
+$sz-768: 768px;
+$sz-575: 575px;
+$sz-420: 420px;
+// Media screen size end.
+
+a {
+  color: black;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1600px;
+  }
+}
