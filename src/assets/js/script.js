@@ -7,6 +7,10 @@ $(document).ready(function () {
 
   $('.header-logo').click(function (e) {
     e.preventDefault();
+    $('.header-section__content__main').removeClass('show');
+    $('body').removeClass('body-overflow');
+    $(this).removeClass("active");
+    $('#hamburger').removeClass('active')
     $('html, body').animate({
       scrollTop: 0
     }, 700)
@@ -15,7 +19,6 @@ $(document).ready(function () {
  $('.menu-item a').click(function(e){
   e.preventDefault();
   var menuScroll = e.target.id;
-  console.log(menuScroll,'4444')
   var thisBlock = '.' + menuScroll;
   $('.header-section__content__main').removeClass('show');
   $('body').removeClass('body-overflow');
